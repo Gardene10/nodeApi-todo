@@ -1,6 +1,5 @@
 import { Model, DataTypes } from "sequelize";
 import {sequelize} from "../instances/mysql";
-import { defaultValueSchemable } from "sequelize/types/utils";
 
 export interface TodoInstance extends Model {
     id: number
